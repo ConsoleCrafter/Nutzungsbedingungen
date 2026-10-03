@@ -135,7 +135,8 @@ body.lang-de .de{display:block}body.lang-de .en{display:none}
 <h3>2. Verarbeitete Daten und Zweck</h3>
 <ul>
 <li><strong>Servereinstellungen:</strong> Server-ID, Log-Channel-ID sowie Status und Limits der einzelnen Schutzfunktionen. Dauerhaft in einer Konfigurationsdatei gespeichert, damit der Bot nach Neustarts funktioniert.</li>
-<li><strong>Nachrichteninhalte:</strong> werden in Echtzeit gelesen, um Wortfilter und Befehle anzuwenden. Eine temporäre Kopie der letzten Nachrichten (bis zu 1.000 pro Channel) liegt nur im Arbeitsspeicher, um Lösch- und Channel-Löschungs-Logs zu erzeugen. Sie geht bei einem Neustart verloren und wird nie in einer Datenbank gespeichert.</li>
+<li><strong>Nachrichteninhalte:</strong> werden in Echtzeit gelesen, um Wortfilter und Befehle anzuwenden. Eine te
+  mporäre Kopie der letzten Nachrichten (bis zu 1.000 pro Channel) liegt nur im Arbeitsspeicher, um Lösch- und Channel-Löschungs-Logs zu erzeugen. Sie geht bei einem Neustart verloren und wird nie in einer Datenbank gespeichert.</li>
 <li><strong>Nutzer- und Ereignisdaten:</strong> Discord-Nutzer-IDs, Benutzernamen, Rollen- und Audit-Log-Informationen zu Bans, Kicks, Timeouts, Channel- und Webhook-Änderungen, zur Missbrauchserkennung und für Strafen.</li>
 <li><strong>Verstoß-Zähler:</strong> ein Zähler pro Nutzer für den Wortfilter, nur im Arbeitsspeicher, zurückgesetzt nach 24 Stunden ohne Verstoß oder bei Neustart.</li>
 <li><strong>Moderations-Log:</strong> Wenn ein Server einen Log-Channel festlegt, postet der Bot dort gelöschte Nachrichten (Autor, Channel, Inhalt, Anhangs-Links, als Embed und Textdatei), Purge-Protokolle, Strafen und Moderator-Aktionen. Diese Beiträge werden von Discord auf dem jeweiligen Server gespeichert und von dessen Administratoren kontrolliert.</li>
@@ -147,7 +148,7 @@ body.lang-de .de{display:block}body.lang-de .en{display:none}
 <h3>4. Speicherdauer</h3>
 <p>Nachrichtenkopien und Verstoß-Zähler existieren nur im Arbeitsspeicher. Servereinstellungen werden gespeichert, solange der Bot auf dem Server ist, und auf Anfrage gelöscht. Technische Logs werden nur kurz aufbewahrt. In den Log-Channel eines Servers gepostete Logs bleiben, bis der Server sie löscht.</p>
 <h3>5. Deine Rechte</h3>
-<p>Du kannst Auskunft, Berichtigung oder Löschung deiner Daten verlangen und der Verarbeitung widersprechen. Serveradministratoren können alle gespeicherten Einstellungen ihres Servers löschen lassen. Schreib an <span class="todo">[DEINE E-MAIL]</span> und gib deine Discord-Nutzer-ID oder Server-ID an. Du kannst dich außerdem bei deiner Datenschutzaufsichtsbehörde beschweren.</p>
+<p>Du kannst Auskunft, Berichtigung oder Löschung deiner Daten verlangen und der Verarbeitung widersprechen. Serveradministratoren können alle gespeicherten Einstellungen ihres Servers löschen lassen. Schreib an <span class="todo">[cc@consolecrafter.de]</span> und gib deine Discord-Nutzer-ID oder Server-ID an. Du kannst dich außerdem bei deiner Datenschutzaufsichtsbehörde beschweren.</p>
 <h3>6. Kinder</h3>
 <p>Der Bot richtet sich an Nutzer, die das Mindestalter von Discord erfüllen. Er erhebt wissentlich keine Daten über das hinaus, was Discord ihm bereitstellt.</p>
 <h3>7. Änderungen</h3>
